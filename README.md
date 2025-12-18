@@ -47,6 +47,8 @@ yoki-profile/
 │  └─ video-2.png
 └─ README.md```
 
+---
+
 ## 作業ログ
 
 - 2025-12-18
