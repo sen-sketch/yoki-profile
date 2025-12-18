@@ -217,6 +217,12 @@
     color: rgba(255,255,255,.75);
     }
 
+    /* ライトテーマ + モーダル表示中：×ボタンを白くする */
+    body:not([data-theme="dark"]) .modal.is-open .modal__close{
+    color: #ffffff;
+    border-color: rgba(255,255,255,.6);
+    background: rgba(255,255,255,.15);
+    }
 
     .gallery{
     margin-top: 10px;
@@ -432,16 +438,16 @@
         <h2>Gallery</h2>
       
         <div class="gallery" id="gallery">
-          <button class="g-item" type="button" data-full="gallery-1.webp" data-alt="お買い物">
+          <button class="g-item" type="button" data-full="images/gallery-1.webp" data-alt="お買い物">
             <img src="images/gallery-1.webp" alt="Yoki ギャラリー 1" loading="lazy" />
           </button>
-          <button class="g-item" type="button" data-full="gallery-2.webp" data-alt="バスケットボールが好き">
+          <button class="g-item" type="button" data-full="images/gallery-2.webp" data-alt="バスケットボールが好き">
             <img src="images/gallery-2.webp" alt="Yoki ギャラリー 2" loading="lazy" />
           </button>
-          <button class="g-item" type="button" data-full="gallery-3.webp" data-alt="空飛ぶYoki">
+          <button class="g-item" type="button" data-full="images/gallery-3.webp" data-alt="空飛ぶYoki">
             <img src="images/gallery-3.webp" alt="Yoki ギャラリー 3" loading="lazy" />
           </button>
-          <button class="g-item" type="button" data-full="gallery-4.webp" data-alt="エジプト旅行">
+          <button class="g-item" type="button" data-full="images/gallery-4.webp" data-alt="エジプト旅行">
             <img src="images/gallery-4.webp" alt="Yoki ギャラリー 4" loading="lazy" />
           </button>
         </div>
