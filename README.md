@@ -45,7 +45,7 @@ yoki-profile/
 │  ├─ gallery-4.webp
 │  ├─ video-1.png
 │  └─ video-2.png
-└─ README.md
+└─ README.md```
 
 ## 作業ログ
 
